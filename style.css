@@ -15,12 +15,13 @@ left: 250px;
 }
 .button {
   background-color: #b4cf39;
-  color: rgb(127, 148, 33);
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  transition: 0.7s;
-  
+  /* color: rgb(127, 148, 33); */
+  padding: 10px 20px; /* Use a valid value */
+  border: 5px solid;
+  /* cursor: pointer; */
+  /* transition: 0.7s; */
+  margin: 5px auto;
+}
 
 .button:hover {
   background-color: #002ead;
