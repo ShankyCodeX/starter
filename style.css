@@ -13,16 +13,26 @@ left: 250px;
     top: 50px;
     left: 50px;
 }
-.button {
-  background-color: #b4cf39;
+ button{
+background: none;
   /* color: rgb(127, 148, 33); */
-  padding: 10px 20px; /* Use a valid value */
+  padding: 1em 7rem; /* Use a valid value */
   border: 5px solid;
   /* cursor: pointer; */
   /* transition: 0.7s; */
-  margin: 5px auto;
+  margin: 10px auto;
+  display: flex;
+  content-align: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+
 }
 
-.button:hover {
-  background-color: #002ead;
+button:hover {
+  background-color: yellowgreen;
+border-color: yellow;
+box-shadow: 0 0.5em 0.5em -0.4em rgb(192, 61, 9);
+transform: translateY(-0.25em);
+  color: #370617;
+  cursor: pointer;
 }
