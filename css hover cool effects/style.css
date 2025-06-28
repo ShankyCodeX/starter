@@ -6,11 +6,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #0a1c86;
+  background-image:url(https://images.unsplash.com/photo-1749916883754-a7b3fc88d4a7?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: cover;
+  background-position: bottom;
 }
 button{
     background: none;
     border: 2px solid;
+    border-radius: 8%;
     color: #370617;
     padding: 1em 2em;
     font-size: 1em;
@@ -18,8 +21,9 @@ button{
     cursor: pointer;
 }
 button:hover{
-    border-color: #ffba08;
-    color: yellow;
-    box-shadow: 0 0.5em 0.5em -0.4em #ffba08;
+    border-color: #12e7ee;
+    color: rgb(11, 247, 235);
+    box-shadow: 0 0.5em 0.5em -0.4em hsl(182, 100%, 52%);
     transform: translatey(-0.25em);
+    
 }
