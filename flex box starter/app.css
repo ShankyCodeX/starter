@@ -14,13 +14,14 @@ h1 {
     flex-direction: row-reverse;
     justify-content:end;
     align-items:flex-start;
-    flex-wrap: wrap;
-    /* align-content: center; */
+    align-content: center;
 
 }
 #container div{
     width: 200px;
     height: 200px;
+    /* flex-grow:1; */
+ 
 }
 /* div:nth-of-type(5){
     align-self: flex-end;
@@ -35,6 +36,37 @@ div:nth-of-type(2){
     align-self: center; */
 /* } */
 div:nth-of-type(1){
-    
-    flex-grow:1;
+    flex-grow: 1;
+    flec-shrink: 1;
+    flex-basis: 100px;
 }
+div:nth-of-type(5){
+    flex-grow: 2;
+    flex-shrink: 0;
+
+    
+}
+main{
+
+    width: 80%;
+    background-color: cyan;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+     border: 5px solid black;
+
+}
+main .yellow {
+    background-color: yellow;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+main .blue {
+    background-color: blue;
+   flex: 1 2 300px;
+}
+main .green {
+    background-color: green;
+    flex: 1 1 800px;
+}  
